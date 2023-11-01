@@ -14,3 +14,75 @@
 .buttonaccueil{
 
 }
+
+/* formulaire page Nous rencontrer */
+#wpcf7-f212-p11-o1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.contactform{
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 24px;  
+}
+
+
+/* formulaire page commander */
+#wpcf7-f244-p14-o5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}  
+
+.infoform{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;  
+}
+
+.info{
+    font-family: 'Syne', sans-serif;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px; 
+    
+}
+
+.titre-info{
+    font-family: 'Syne', sans-serif;
+    color: #FFFFFF !important;
+    font-weight:700;
+    font-size: 30px;
+    line-height: 36px;
+
+}
+
+.borduredroite{
+    border-right: 1px solid #FFFFFF; 
+     
+    
+}
+
+
+/*Bouton des formulaires*/
+input.wpcf7-form-control.wpcf7-submit {
+    display:block;
+    margin:auto;   
+    background-color: #E0B9B4;
+    color: #FFFFFF;
+    
+}
+
+
+
+
+
+
+
+
+
