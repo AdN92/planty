@@ -2,17 +2,23 @@
     position: relative;
     right: 470px;
     top: 100px;
-
 }
 
 .fleur2{
     position: relative;
-    left: 660px;
-    bottom: 970px;
+    left: 600px;
+    bottom: 230px;
 }
 
-.buttonaccueil{
+.fleur3{
+    position: relative;
+    right: 168px;
+    bottom:260px;
+    z-index: -1;
+}
 
+.canettebdp{
+    bottom:10px;
 }
 
 /* formulaire page Nous rencontrer */
@@ -20,13 +26,16 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+    
 }
  
 .contactform{
     font-family: 'Syne', sans-serif;
     font-weight: 400;
     font-size:20px;
-    line-height: 24px;  
+    line-height: 24px; 
+    
 }
 
 
@@ -68,14 +77,54 @@
     
 }
 
+/* formulaire ajout quantité commande*/
+#wpcf7-f226-p14-01{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+
 
 /*Bouton des formulaires*/
-input.wpcf7-form-control.wpcf7-submit {
-    display:block;
-    margin:auto;   
+input.wpcf7-form-control.wpcf7-submit {    
     background-color: #E0B9B4;
     color: #FFFFFF;
+}
     
+
+input.butlivraison{
+    display:flex;       
+    margin:auto;
+    font-family: 'syne', sans-serif;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    align-items: center;
+    background-color: #E0B9B4;
+
+}
+
+input.butlivraison:hover{
+    background-color:#C02E44;
+}
+
+input.butcontacter{
+    display:flex;       
+    margin:auto;
+    font-family: 'syne', sans-serif;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 37px;
+    align-items: center;
+    background-color: #E0B9B4;
+
+}
+.butcontacter:hover{
+    cursor:pointer;
+    color: #C02E44;
 }
 
 
