@@ -42,7 +42,9 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	role="link"
 	title="<?php echo esc_attr( astra_default_strings( 'string-header-skip-link', false ) ); ?>">
 		<?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?>
+		
 </a>
+
 
 <div
 <?php
@@ -67,3 +69,6 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	<div id="content" class="site-content">
 		<div class="ast-container">
 		<?php astra_content_top(); ?>
+
+		<?php
+

@@ -102,3 +102,6 @@
 [01-Nov-2023 17:36:14 UTC] SITE: Storing in option ast-block-templates-sites-2
 [01-Nov-2023 17:36:14 UTC] SITE: Completed request 2
 [01-Nov-2023 17:36:14 UTC] Sync process for Gutenberg Blocks is done.
+[02-Nov-2023 10:46:32 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\AdN WoRK\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 18
+[02-Nov-2023 10:46:33 UTC] PHP Parse error:  Unclosed '{' on line 4 in C:\Users\AdN WoRK\Local Sites\planty\app\public\wp-content\themes\astra-child\functions.php on line 18
+[02-Nov-2023 10:50:18 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\AdN WoRK\Local Sites\planty\app\public\wp-content\themes\astra-child\header.php on line 74
