@@ -40,7 +40,7 @@
 
 
 /* formulaire page commander */
-#wpcf7-f244-p14-o5{
+#wpcf7-f299-p14-o1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -87,10 +87,7 @@
 
 
 /*Bouton des formulaires*/
-input.wpcf7-form-control.wpcf7-submit {    
-    background-color: #E0B9B4;
-    color: #FFFFFF;
-}
+
     
 
 input.butlivraison{
@@ -107,6 +104,7 @@ input.butlivraison{
 }
 
 input.butlivraison:hover{
+    cursor:pointer;
     background-color:#C02E44;
 }
 
@@ -120,15 +118,29 @@ input.butcontacter{
     line-height: 37px;
     align-items: center;
     background-color: #E0B9B4;
-
-}
-.butcontacter:hover{
-    cursor:pointer;
-    color: #C02E44;
 }
 
+.quanti{
+    width: 10px;
+    height:10px;
+    resize: none; 
+}
+
+.formquanti{
+    display:flex;
+    flex-direction: row;
+    
 
 
+
+}
+
+
+.formquanti1{
+    display: flex;
+    flex-direction: column;
+
+}
 
 
 
