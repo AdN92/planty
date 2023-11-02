@@ -144,6 +144,14 @@ input.butcontacter{
 
 
 
+/* Personnalisation du hook*/
+.menu-item a {
+    color: #000000; 
+    font-family: 'syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px ;
+}
 
 
 
