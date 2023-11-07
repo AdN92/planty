@@ -90,8 +90,8 @@ input.butcontacter{
     flex-direction: row;
     
     align-items: center;
-    margin-right:20px;
-    margin-left: 30px;
+    
+    margin-left: 58px;
 }
 .form-column {
     display: flex;
@@ -226,6 +226,10 @@ input.butcontacter{
     line-height: 19.2px ;
 }
 
+/*position cannette bas e page*/
+.test{
+    padding-top:100px;
+}
 
 /*responsive*/
 
@@ -239,23 +243,26 @@ input.butcontacter{
     .form-column,
     #wpcf7-f212-p11-o1,
     #wpcf7-f299-p14-o1 {
-        display: block; /* Changer pour un affichage en bloc */
-        margin: auto; /* Centrer sur l'écran */
+        display: block; 
+        margin: auto; 
     }
 
     .quantite-input,
     .infoform {
-        margin-bottom: 20px; /* Espacement entre les éléments pour une meilleure lisibilité sur les petits écrans */
+        margin-bottom: 20px; 
     }
 
     .borduredroite {
-        border-right: none; /* Supprimer la bordure à droite pour un meilleur rendu sur les petits écrans */
+        border-right: none; 
     }
     
     .boutonquantite {
-        margin-right: 0; /* Réduire la marge à zéro sur les petits écrans pour le bouton quantité */
+        margin-right: 0; 
     }
+   
+   
 }
+
 
 /* Pour les écrans de grande taille, par exemple, les ordinateurs de bureau */
 @media (min-width: 769px) {
@@ -301,3 +308,4 @@ input.butcontacter{
         margin-right: 70px;
     }
 
+}
