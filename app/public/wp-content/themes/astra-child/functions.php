@@ -14,9 +14,13 @@ function ajouter_lien_personnalise_menu($items, $args) {  //Fonction pour filtre
     // Vérifiez si l'utilisateur est connecté en tant qu'administrateur
     if (is_user_logged_in() && current_user_can('administrator')) { //Condition qui vérifie si on est connecté et si on est admin
         // Ajout du lien au menu
+        if ($args->menu->term_id == 2) {
         $lien_admin = '<li class="menu-item"><a href="' . admin_url() . '">Admin</a></li>'; //Structure HTML du lien personnalisé
         $items .= $lien_admin; // Ajout du contenu $len_admin a la variable $items
+        }
     }
+    
+    
     return $items;
 }
 add_filter('wp_nav_menu_items', 'ajouter_lien_personnalise_menu', 10, 2); // ajout fonction et permet à la fonction d'être exécutée lors de la génération des éléments du menu
